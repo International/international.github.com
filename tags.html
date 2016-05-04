@@ -1,0 +1,14 @@
+---
+layout: tag_index
+title: Tags
+permalink: /tags/
+---
+<ul>
+{% for post in site.posts %}
+  {% for tag in post.tags %}
+    <div class="tile">
+      <li class="inline archive_list"><a class="tag_list_link" href="/tags/{{ tag }}">{{ tag }}</a></li>
+    </div>  
+  {% endfor %}
+{% endfor %}
+</ul>
