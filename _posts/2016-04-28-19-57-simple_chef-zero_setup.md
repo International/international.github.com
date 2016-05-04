@@ -1,7 +1,7 @@
 ---
 layout: inner
 title: simple chef-zero setup
-tags: ruby chef chef-zero
+tags: ["ruby","chef","chef-zero"]
 ---
 Simple Chef-Zero setup
 ===============
