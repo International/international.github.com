@@ -28,7 +28,7 @@ gems:      [jekyll-paginate]
 markdown:    kramdown
 highlighter: pygments
 lsi:         false
-excerpt_separator: "xyzpotato"
+excerpt_separator: "<!-- exce -->"
 
 # Serving
 detach:  false
@@ -37,9 +37,9 @@ host:    127.0.0.1
 baseurl: "" # does not include hostname
 
 # Outputting
-permalink:     /:title.html
+permalink:     /:year/:month/:day/:title
 paginate: 10
-paginate_path: /page:num
+paginate_path: /blog/page:num
 timezone:      null
 
 quiet:    false
