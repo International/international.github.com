@@ -4,6 +4,7 @@
 
 * [Demo](http://scotch-io.github.io)
 * [Read the Jekyll Tutorial](https://scotch.io/tutorials/getting-started-with-jekyll-plus-a-free-bootstrap-3-starter-theme)
+* [Tags](http://stackoverflow.com/questions/1408824/an-easy-way-to-support-tags-in-a-jekyll-blog/21002505#21002505)
 
 ## WTF?
 
