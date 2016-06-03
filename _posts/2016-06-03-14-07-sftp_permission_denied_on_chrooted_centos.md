@@ -29,4 +29,4 @@ remote open("/new/README.md"): Permission denied
 Turns out, it was caused by selinux, and the fix was to run this cmd:
 {% highlight bash %}
 setsebool -P ssh_chroot_rw_homedirs on
-{% endhiglight %}
+{% endhighlight %}
