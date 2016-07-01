@@ -25,3 +25,5 @@ export GIT_SSH_COMMAND="ssh -i /path/to/the/private_key"
 <pre>
 git clone git@github-work:organization_name/repo.git
 </pre>
+
+[This StackOverflow answer](http://superuser.com/questions/232373/how-to-tell-git-which-private-key-to-use) helped me with this.
