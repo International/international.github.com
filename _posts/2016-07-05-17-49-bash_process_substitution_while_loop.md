@@ -12,7 +12,7 @@ cat $1 | while read -r line; do
     # do something with line_with_new_value here
     #
   done
-	echo $line_with_new_value
+  echo $line_with_new_value
 done
 {% endhighlight %}
 
