@@ -9,8 +9,8 @@ I recently stumbled upon a problem in a bash script. I was doing something like 
 cat $1 | while read -r line; do
   line_with_new_value=$line
   echo $line_with_new_value | grep -vE '^#|^$' | grep -o -E '\${.*?}' | while read -r dollar_var; do
-	  # do something with line_with_new_value here
-		#
+    # do something with line_with_new_value here
+    #
   done
 	echo $line_with_new_value
 done
@@ -25,7 +25,7 @@ on process substitution. The fix was to rewrite that loop like this:
 cat $1 | while read -r line; do
   line_with_new_value=$line
   while read -r interpolation; do
-	  # modify line_with_new_value here
+    # modify line_with_new_value here
   done < <(echo $interpolated_line | grep -vE '^#|^$' | grep -o -E '\${.*?}')
   echo $line_with_new_value
 done
