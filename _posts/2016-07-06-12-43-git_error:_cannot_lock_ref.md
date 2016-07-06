@@ -1,6 +1,6 @@
 ---
 layout: inner
-title: git error: cannot lock ref
+title: git error cannot lock ref
 tags: ["git"]
 ---
 Had this error:
