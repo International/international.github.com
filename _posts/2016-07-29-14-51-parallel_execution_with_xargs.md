@@ -12,3 +12,14 @@ node2
 EOF
 {% endhighlight %}
 
+This can also be used with bash functions, but first you have to export them:
+{% highlight bash %}
+
+export -f some_function
+
+cat <<EOF | xargs -P3 -I"BOXNAME" sh -c "some_function BOXNAME"
+node0
+node1
+node2
+EOF
+{% endhighlight %}
