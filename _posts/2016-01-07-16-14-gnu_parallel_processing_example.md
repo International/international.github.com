@@ -58,6 +58,12 @@ Alternatively, this has a simpler syntax:
 parallel --eta -j+0 'ruby initial.rb {}' ::: 1 2
 {% endhighlight %}
 
+or, with a shell glob:
+
+{% highlight bash %}
+parallel --eta -j+0 'ruby initial.rb {}' ::: *.txt
+{% endhighlight %}
+
 More examples [here](http://www.shakthimaan.com/posts/2014/11/27/gnu-parallel/news.html)
 
 GNU citation:
