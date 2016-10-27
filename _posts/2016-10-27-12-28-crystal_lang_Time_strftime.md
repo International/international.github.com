@@ -6,7 +6,7 @@ tags: ["crystal"]
 The equivalent for the ruby:
 {% highlight ruby %}
 Time.now.strftime("%Y-%m-%d-%H-%M")
-{% endhighlight }
+{% endhighlight %}
 
 is
 {% highlight ruby %}
