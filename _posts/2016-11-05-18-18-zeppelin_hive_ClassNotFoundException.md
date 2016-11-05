@@ -3,7 +3,7 @@ layout: inner
 title: zeppelin hive ClassNotFoundException
 tags: ["zeppelin", "hive", "hadoop"]
 ---
-Got a `ClassNotFoundException` when trying to create a snippet in a zeppelin notebook.
+Got a <b>ClassNotFoundException</b> when trying to create a snippet in a zeppelin notebook.
 Luckily I found [this answer](http://stackoverflow.com/a/38726719/31610), which suggested this fix:
 
 * download hive-jdbc standalone.jar
