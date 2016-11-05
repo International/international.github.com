@@ -8,7 +8,7 @@ Luckily I found [this answer](http://stackoverflow.com/a/38726719/31610), which 
 
 * download hive-jdbc standalone.jar
 * download hadoop-common.jar
-* place them in `interpreter/jdbc` of the zeppelin installation:
+* place them in <b>interpreter/jdbc</b> of the zeppelin installation:
 
 <pre>
 cp ~/Dev/Hadoop/apache-hive-1.2.1-bin/lib/hive-jdbc-1.2.1-standalone.jar ./interpreter/jdbc/
