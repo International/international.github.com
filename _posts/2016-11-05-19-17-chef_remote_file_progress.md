@@ -3,7 +3,7 @@ layout: inner
 title: chef remote_file progress
 tags: ["chef"]
 ---
-When using `remote_file`, the `show_progress` attribute can show download progress.
+When using <b>remote_file</b>, the <b>show_progress</b> attribute can show download progress.
 Example:
 
 <pre>
@@ -14,6 +14,7 @@ end
 </pre>
 
 and it will have the following effect on the output:
+
 <pre>
 ==> default:  - Progress: 10%
 ==> default:
