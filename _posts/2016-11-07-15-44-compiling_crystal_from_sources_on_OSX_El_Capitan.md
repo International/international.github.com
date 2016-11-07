@@ -4,6 +4,7 @@ title: compiling crystal from sources on OSX El Capitan
 tags: ["crystal"]
 ---
 This is easy if you have <b>homebrew</b>:
+
 * brew install llvm
 * clone the crystal repo:
 <pre>
