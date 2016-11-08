@@ -7,7 +7,7 @@ tags: ["phoenix","elixir","ecto"]
 Repo.get(User, 1) |> Repo.preload(:association_name)
 {% endhighlight %}
 
-or, if an association has not been loaded, and you receive: `#Ecto.Association.NotLoaded<association :exercise_entries is not loaded>`
+or, if an association has not been loaded, and you receive: <b>#Ecto.Association.NotLoaded<association :exercise_entries is not loaded></b>
 then, the following works too:
 
 {% highlight elixir %}

@@ -18,7 +18,7 @@ task :called_with do
 end
 {% endhighlight %}
 
-In the above example, the task `called_with` can be passed a param form the command line:
+In the above example, the task <b>called_with</b> can be passed a param form the command line:
 
 <pre>
 cap called_with -s branch=master
@@ -31,7 +31,7 @@ called with branch master
 </pre>
 
  If you need to call a parameterized task from another task,
-the above task, `callerz` illustrates one way of getting that result. You invoke it like this:
+the above task, <b>callerz</b> illustrates one way of getting that result. You invoke it like this:
 
 <pre>
 cap callerz

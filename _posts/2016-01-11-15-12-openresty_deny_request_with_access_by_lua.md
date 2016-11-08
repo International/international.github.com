@@ -19,4 +19,4 @@ location ~ ^/some_location {
 }
 {% endhighlight %}
 
-This way, if `some_condition` is not true, nginx will return a 403 and not do the proxy pass.
+This way, if <b>some_condition</b> is not true, nginx will return a 403 and not do the proxy pass.

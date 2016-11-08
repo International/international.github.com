@@ -3,7 +3,7 @@ layout: inner
 title: maven surefire run with test timeout option
 tags: ["maven","java","timeout"]
 ---
-Assuming you have the `maven-surefire-plugin`, [this](https://maven.apache.org/surefire/maven-surefire-plugin/test-mojo.html#forkedProcessTimeoutInSeconds) 
+Assuming you have the <b>maven-surefire-plugin</b>, [this](https://maven.apache.org/surefire/maven-surefire-plugin/test-mojo.html#forkedProcessTimeoutInSeconds) 
 option is useful:
 
 {% highlight bash %}

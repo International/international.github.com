@@ -3,7 +3,7 @@ layout: inner
 title: on configuring chef-server locally
 tags: ["ruby","chef", "chef-server"]
 ---
-After reading [this article](http://misheska.com/blog/2014/11/25/chef-server-12/), not all the steps applied in my case. I've pasted the steps I had to take on my system, to get `chef-dk 0.11.0-1_amd64.deb` to work on the listed CentOs.
+After reading [this article](http://misheska.com/blog/2014/11/25/chef-server-12/), not all the steps applied in my case. I've pasted the steps I had to take on my system, to get <b>chef-dk 0.11.0-1_amd64.deb</b> to work on the listed CentOs.
 
 Steps to configure chef-server locally
 =======================================
@@ -61,23 +61,23 @@ package package_local_path
 execute 'chef-server-ctl reconfigure'
 {% endhighlight %}
 
-- do a `kitchen converge`
+- do a <b>kitchen converge</b>
 - open https://192.168.33.7 in your browser
 - login as admin/p@assw0rd1
 - change password
 - create user geo with whatever password, make him an admin
 - on the screen there will be a private key shown, copy that and save it locally
 to a file named geo.pem
-- in `chef-repo` create a `.chef` folder
+- in <b>chef-repo</b> create a <b>.chef</b> folder
 - copy geo.pem there
-- we need to copy the chef-validator from the host `scp root@192.168.33.7:/etc/chef-server/chef-validator.pem .`
-- add a new entry to `/etc/hosts` with the following content:
+- we need to copy the chef-validator from the host <b>scp root@192.168.33.7:/etc/chef-server/chef-validator.pem .</b>
+- add a new entry to <b>/etc/hosts</b> with the following content:
 
 <pre>
 192.168.33.7 default-centos65
 </pre>
 
-- in .chef, create a file called `knife.rb` with the following content:
+- in .chef, create a file called <b>knife.rb</b> with the following content:
 {% highlight ruby %}
 current_dir = File.dirname(__FILE__)
 log_level :info
@@ -109,7 +109,7 @@ chef-webui
 
 Potential problems you may encounter
 ====================================
-* I encountered this initially, when running `knife client list`
+* I encountered this initially, when running <b>knife client list</b>
 <pre>
 ➜  chef-repo git:(master) ✗ knife client list
 ERROR: SSL Validation failure connecting to host: default-centos65.vagrantup.com - hostname "default-centos65.vagrantup.com" does not match the server
@@ -119,7 +119,7 @@ ERROR: SSL Validation failure connecting to host: default-centos65.vagrantup.com
 certificate
 </pre>
 
-  * fix for it was to run `knife ssl check`, where I saw the following:
+  * fix for it was to run <b>knife ssl check</b>, where I saw the following:
   <pre>
   ➜  chef-repo git:(master) ✗ knife ssl check
 Connecting to host default-centos65.vagrantup.com:443
@@ -136,7 +136,7 @@ ERROR: The server's certificate belongs to 'default-centos65'
   ```{ruby}
   chef_server_url "https://default-centos65:443"
   ```
-  * next, run another `knife ssl check`, and you should see this output:
+  * next, run another <b>knife ssl check</b>, and you should see this output:
   <pre>
   ➜  chef-repo git:(master) ✗ knife ssl check
   Connecting to host default-centos65:443

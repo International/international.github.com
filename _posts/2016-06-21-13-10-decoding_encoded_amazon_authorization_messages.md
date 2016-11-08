@@ -13,4 +13,4 @@ Then, you can decode it like this:
 aws sts decode-authorization-message --encoded-message redacted
 </pre>
 
-To have the above command work, make sure your user has the `sts:DecodeAuthorizationMessage` grant.
+To have the above command work, make sure your user has the <b>sts:DecodeAuthorizationMessage</b> grant.

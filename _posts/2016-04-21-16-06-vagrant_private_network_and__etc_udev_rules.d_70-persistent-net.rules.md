@@ -26,6 +26,6 @@ box.vm.network "private_network", ip: "whatever_ip", :auto_config => false
 {% endhighlight %}
 
 The issue is discussed [here](https://github.com/jedi4ever/veewee/issues/970), and [this post](https://github.com/jedi4ever/veewee/issues/970) helped me fix the issue.
-Basically, you have to check the contents of the file: `/etc/udev/rules.d/70-persistent-net.rules`.
+Basically, you have to check the contents of the file: <b>/etc/udev/rules.d/70-persistent-net.rules</b>.
 The safest bet seems to be to delete that file, so that vagrant can assign device names
 without MAC address issues. Thanks a lot, [ablecoder](http://able.cd/)!

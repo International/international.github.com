@@ -3,4 +3,4 @@ layout: inner
 title: restart chrome
 tags: ["chrome"]
 ---
-Opening a tab to `chrome://restart` will do it.
+Opening a tab to <b>chrome://restart</b> will do it.

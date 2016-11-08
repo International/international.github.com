@@ -24,7 +24,7 @@ YourClass.new.do_something
 {% endhighlight %}
 
 <del>will not use Celluloid</del> the Ruby main thread becomes an Actor.
-When you write `YourClass.new.do_something` you are actually doing a blocking call and invoking `do_something`
+When you write <b>YourClass.new.do_something</b> you are actually doing a blocking call and invoking <b>do_something</b>
 on the YourClass instance (which is contained within an actor). **Thanks for the correction Sam Williams**
 
 {% highlight ruby %}
