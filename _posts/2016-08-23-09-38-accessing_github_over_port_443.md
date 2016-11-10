@@ -3,7 +3,7 @@ layout: inner
 title: accessing github over port 443
 tags: ["git","github","firewall"]
 ---
-Added the following to `.ssh/config`, cause 22 was blocked by the network firewall:
+Added the following to <b>.ssh/config</b>, cause 22 was blocked by the network firewall:
 <pre>
 Host github-work
   HostName ssh.github.com
