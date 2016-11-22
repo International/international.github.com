@@ -5,6 +5,8 @@ tags: ["go","debug"]
 ---
 Useful info [here](https://github.com/derekparker/delve/issues/27):
 
-* run <pre>go test -c</pre>
-* <pre>dlv exec ./yourfile.test</pre>
+* run:
+<pre>go test -c</pre>
+* then
+<pre>dlv exec ./yourfile.test</pre>
 * debug
