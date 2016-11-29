@@ -4,6 +4,7 @@ title: embedding binary data as string literals
 tags: ["golang","go"]
 ---
 The problem: had a gzipped file that I wanted to include as a string literal in code.
+
 The solution:
 
 * used the following tool [go-bindata](https://github.com/jteeuwen/go-bindata):
