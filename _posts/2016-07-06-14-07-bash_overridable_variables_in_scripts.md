@@ -3,7 +3,8 @@ layout: inner
 title: bash overridable variables in scripts
 tags: ["bash","shell"]
 ---
-This script will show `default` when ran without any arguments:
+This script will show <b>default</b> when ran without any arguments:
+
 {%highlight bash%}
 myvar=${myvar:=default}
 echo $myvar
@@ -12,4 +13,4 @@ echo $myvar
 and running it like this:
 <pre>myvar=different ./script.sh</pre>
 
-will show `different`
+will show <b>different</b>
