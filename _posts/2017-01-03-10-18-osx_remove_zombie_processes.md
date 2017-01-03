@@ -1,7 +1,7 @@
 ---
 layout: inner
 title: osx remove zombie processes
-tags: []
+tags: ["osx"]
 ---
 Problem: zombie process appeared in <b>ps</b>
 
