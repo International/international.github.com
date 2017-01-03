@@ -15,10 +15,10 @@ lines = File.read_lines(dest)
 title_line = lines.each_with_index.find{|e,i| e =~ /^title:/}
 
 if title_line
-  lines[title_line[1]] = "title: #{orig_title}\n"
+  lines[title_line[1]] = "title: #{orig_title}"
 
   File.open(dest,"w") do |f|
-    f.print lines.join
+    f.print lines.join("\n")
   end
 else
   raise "No title found"
