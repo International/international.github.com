@@ -3,7 +3,7 @@ layout: inner
 title: HtmlWebpackPlugin insert dynamic value
 tags: ["javscript","webpack", "react"]
 ---
-Problem: add a value in `index.html` depending on a condition
+Problem: add a value in <b>index.html</b> depending on a condition
 
 Solution:
 
