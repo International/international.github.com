@@ -1,6 +1,14 @@
 ---
 layout: inner
-title: replace me
+title: angular1 controllerAs with ngRoute
 tags: []
 ---
-Insert body here
+Problem: 
+
+Solution:
+
+* step 1
+
+{% highlight javascript %}
+// some code here
+{% endhighlight %}
