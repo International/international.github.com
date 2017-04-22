@@ -1,6 +1,6 @@
 ---
 layout: inner
-title: angular1 controllerAs with ngRoute
+title: 
 tags: []
 ---
 Problem: 
