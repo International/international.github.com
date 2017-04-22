@@ -1,7 +1,7 @@
 ---
 layout: inner
 title: tslint Error Cannot find module './test/parse'
-tags: []
+tags: ["typescript","tslint","yarn"]
 ---
 Problem: Received this error: <b>Error: Cannot find module './test/parse'</b>
 
