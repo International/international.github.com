@@ -16,12 +16,12 @@ Now you should see a prefix on the shell prompt, with the name of the environmen
 pip install somepackage
 </pre>
 
-and it will install it for a specific package. To get something akin to a `Gemfile.lock` do:
+and it will install it for a specific package. To get something akin to a <b>Gemfile.lock<b> do:
 <pre>
 pip freeze > requirements.txt
 </pre>
 
-And to do a `bundle install`:
+And to do a <b>bundle install</b>:
 <pre>
 pip install -r requirements.txt
 </pre>
