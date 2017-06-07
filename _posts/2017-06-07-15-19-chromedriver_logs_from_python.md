@@ -7,6 +7,6 @@ Problem: wanted to see why chrome might fail to start.
 
 Solution: specify a logging file when building your driver object:
 
-{% highlight javascript %}
+{% highlight python %}
 driver = webdriver.Chrome(service_args=["--verbose", "--log-path=/tmp/your.log"])
 {% endhighlight %}
