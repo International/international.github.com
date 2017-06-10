@@ -1,7 +1,7 @@
 ---
 layout: inner
 title: scrapy unicode utf-8
-tags: []
+tags: ["scrapy","python"]
 ---
 Problem: want to write unicode strings encoded as utf-8 when exporting scrapy items.
 
