@@ -78,7 +78,9 @@ func genNextBlogPost(num int) error {
 	newFileName := fmt.Sprintf("%s-linx-%d.md", formattedNow, num)
 	newFileName = path.Join(blogFolder, newFileName)
 
-	return ioutil.WriteFile(newFileName, templateContent, 0644)
+	fileContents := fmt.Sprintf(string(templateContent), num)
+
+	return ioutil.WriteFile(newFileName, []byte(fileContents), 0644)
 }
 
 func main() {

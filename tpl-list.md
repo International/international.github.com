@@ -1,6 +1,6 @@
 ---
 layout: inner
-title: 
+title: linx #%d
 tags: ["linx"]
 ---
 Interesting links: 
