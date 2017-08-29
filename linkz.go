@@ -59,7 +59,7 @@ func extractNum(name string) int {
 }
 
 func genNextBlogPost(num int) error {
-	templatePath := path.Join(blogRoot, "template.md")
+	templatePath := path.Join(blogRoot, "tpl-list.md")
 	fileHandle, err := os.Open(templatePath)
 
 	if err != nil {
