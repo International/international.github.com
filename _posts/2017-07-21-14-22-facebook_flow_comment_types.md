@@ -1,14 +1,15 @@
 ---
 layout: inner
 title: facebook flow comment types
-tags: []
+tags: ["javascript","flow"]
 ---
-Problem: 
+Problem: you want to add flow, but you don't want to complicate your build process.
 
-Solution:
-
-* step 1
+Solution: use comment types.
 
 {% highlight javascript %}
-// some code here
+const myInt /*: number */ = 10;
+const someFnc = (param /*: number */) => {
+  // do something
+}
 {% endhighlight %}
