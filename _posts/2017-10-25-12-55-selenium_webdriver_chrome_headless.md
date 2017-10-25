@@ -1,7 +1,7 @@
 ---
 layout: inner
 title: selenium webdriver chrome headless
-tags: []
+tags: ["javascript","selenium","chrome"]
 ---
 Problem: wanted to use chrome headless in selenium tests.
 
