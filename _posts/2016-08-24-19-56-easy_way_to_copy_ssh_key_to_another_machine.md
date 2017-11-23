@@ -3,9 +3,10 @@ layout: inner
 title: easy way to copy ssh key to another machine
 tags: ["ssh"]
 ---
-Install `ssh-copy-id` by running `brew install ssh-copy-id`. Then:
+Install <b>ssh-copy-id</b> by running <b>brew install ssh-copy-id</b>. Then:
+
 <pre>
 ssh-copy-id -p PORT user@some_ip
 </pre>
 
-You need to use `PORT` if ssh is listening on something other than 22.
+You need to use <b>PORT</b> if ssh is listening on something other than 22.
